@@ -5,96 +5,62 @@ Um sistema modular para gerenciar serviços e gerar relatórios em PDF, utilizan
 ---
 
 ## 🚀 Funcionalidades da Versão 0.1
-
-- [x] **Banco de Dados Local**  
-  Persistência automática via SQLite.
-
-- [x] **CRUD Modular**  
-  Separação entre lógica de banco (`manipulador_de_bd.py`) e interface (`gerador_de_orcamentos.py`).
-
-- [x] **Prevenção de Erros**  
-  Tratamento de entradas inválidas com `try/except`.
-
-- [x] **Interface via Terminal**  
-  Menu interativo e intuitivo.
+- [x] **Banco de Dados Local:** Persistência automática via SQLite.
+- [x] **CRUD Modular:** Separação entre lógica de banco (`manipulador_de_bd.py`) e interface (`gerador_de_orcamentos.py`).
+- [x] **Interface via Terminal:** Menu interativo para geração de PDF e gestão de dados.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
-
-- Python 3.14.3  
-- SQLite3 (nativo)  
-- FPDF (geração de PDF)
+* **Python 3.14.3**
+* **SQLite3** (Nativo)
+* **FPDF** (Geração de PDF)
 
 ---
 
 ## 📋 Passo a Passo para Execução
 
-### 1. Clonar o Repositório
+### 1. Baixar o Projeto
+1. Acesse o repositório no GitHub.
+2. Clique no botão verde **Code** e selecione **Download ZIP**.
+3. Extraia os arquivos em uma pasta no seu computador.
 
-Abra o terminal e execute:
-
-```bash
-git clone https://github.com/pedrovfpprogram/organizador-de-orcamentos.git
-cd organizador-de-orcamentos
-```
 ### 2. Instalar Dependências
-
-Certifique-se de ter o Python 3.14.3 instalado.
-
-Instale a biblioteca necessária:
+Certifique-se de ter o Python instalado. Abra o terminal na pasta do projeto e instale a biblioteca de PDF:
 ```bash
 pip install fpdf
 ```
 ### 3. Rodar o Sistema
-
-Execute o arquivo principal:
+Para iniciar o gerenciador, execute o arquivo principal:
 
 ```bash
 python gerador_de_orcamentos.py
 ```
-### 4. Usar o Menu
+### 4. Como Usar o Menu
+Opção 1 (Gerar PDF): Cria o documento PDF com base nos dados salvos no banco.
 
-Selecione a opção 1 para cadastrar um novo cliente e serviço
+Opção 2 (Gerenciador): Abre o submenu para gerenciar o banco de dados.
 
-O banco de dados orcamentos.db será criado automaticamente na primeira execução
+Cadastrar Dados: Dentro da Opção 2, selecione 1 para inserir Nome, Contato, Serviço, Valor e Data.
 
-Para gerar o relatório final, utilize a integração com PDF (funcionalidade em expansão na v0.2)
-
----
-
-## 📂 Estruturas de arquivos
-
-📁 organizador-de-orcamentos
-
-├── gerador_de_orcamentos.py   # Interface do usuário
-
-├── manipulador_de_bd.py       # Funções do banco de dados (SQLite)
-
-├── orcamentos.db              # Banco de dados local (Criado automaticamente)
+Persistência: O arquivo orcamentos.db será criado automaticamente na primeira vez que você salvar um dado.
 
 ---
 
-## 📌 Roadmap (v0.2)
+## 📂 Estrutura de Arquivos
+gerador_de_orcamentos.py: Interface principal e lógica de exportação.
 
- Exportação individual para PDF
- 
- Busca avançada por ID ou Nome
- 
- Personalização com cores e logotipo nos orçamentos
+manipulador_de_bd.py: Módulo de funções para conexão e salvamento no SQLite.
+
+orcamentos.db: Onde seus dados ficam armazenados (gerado via script).
 
 ---
- 
+
 ## ⚖️ Licença
-
-Este projeto está sob a licença MIT.
-
-Veja o arquivo LICENSE para mais detalhes.
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE.
 
 ---
 
-## 👨‍💻 Autor
-
-Desenvolvido por Pedro como portfólio técnico.
+*Desenvolvido por Pedro como portfólio técnico.*
 
 ---
