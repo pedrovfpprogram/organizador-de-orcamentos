@@ -56,7 +56,9 @@ python gerador_de_orcamentos.py
 ### 4. Usar o Menu
 
 Selecione a opção 1 para cadastrar um novo cliente e serviço
+
 O banco de dados orcamentos.db será criado automaticamente na primeira execução
+
 Para gerar o relatório final, utilize a integração com PDF (funcionalidade em expansão na v0.2)
 
 ---
@@ -64,6 +66,7 @@ Para gerar o relatório final, utilize a integração com PDF (funcionalidade em
 ## 📂 Estruturas de arquivos
 
 📁 organizador-de-orcamentos
+
 ├── gerador_de_orcamentos.py   # Interface do usuário
 
 ├── manipulador_de_bd.py       # Funções do banco de dados (SQLite)
@@ -75,7 +78,9 @@ Para gerar o relatório final, utilize a integração com PDF (funcionalidade em
 ## 📌 Roadmap (v0.2)
 
  Exportação individual para PDF
+ 
  Busca avançada por ID ou Nome
+ 
  Personalização com cores e logotipo nos orçamentos
 
 ---
@@ -83,6 +88,7 @@ Para gerar o relatório final, utilize a integração com PDF (funcionalidade em
 ## ⚖️ Licença
 
 Este projeto está sob a licença MIT.
+
 Veja o arquivo LICENSE para mais detalhes.
 
 ---
