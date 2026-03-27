@@ -65,7 +65,9 @@ Para gerar o relatório final, utilize a integração com PDF (funcionalidade em
 
 📁 organizador-de-orcamentos
 ├── gerador_de_orcamentos.py   # Interface do usuário
+
 ├── manipulador_de_bd.py       # Funções do banco de dados (SQLite)
+
 ├── orcamentos.db              # Banco de dados local (Criado automaticamente)
 
 ---
