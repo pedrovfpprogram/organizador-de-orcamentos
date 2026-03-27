@@ -93,7 +93,7 @@ Veja o arquivo LICENSE para mais detalhes.
 
 ---
 
-##👨‍💻 Autor
+## 👨‍💻 Autor
 
 Desenvolvido por Pedro como portfólio técnico.
 
