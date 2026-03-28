@@ -4,7 +4,7 @@ Um sistema modular para gerenciar serviços e gerar relatórios em PDF, utilizan
 
 ---
 
-## 🚀 Funcionalidades da Versão 0.1
+## 🚀 Funcionalidades da Versão 0.2
 - [x] **Banco de Dados Local:** Persistência automática via SQLite.
 - [x] **CRUD Modular:** Separação entre lógica de banco (`manipulador_de_bd.py`) e interface (`gerador_de_orcamentos.py`).
 - [x] **Interface via Terminal:** Menu interativo para geração de PDF e gestão de dados.
