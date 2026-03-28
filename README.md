@@ -1,4 +1,4 @@
-# 📄 Organizador de Orçamentos em Python (v0.1)
+# 📄 Organizador de Orçamentos em Python (v0.2)
 
 Um sistema modular para gerenciar serviços e gerar relatórios em PDF, utilizando **SQLite3** para persistência e **FPDF** para documentos.
 
